@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
-    background-color: #ffff;
 }
 
 nav {
@@ -77,11 +76,12 @@ nav {
  .right_side input, button {
     border: none;
     outline: none;
+    background: none;
  }
 
  .right_side input  {
     padding: 0 38px 0 0;
-    font-size: 13px;
+    font-size: 14px;
  }
 
  .right_side button {
@@ -89,7 +89,7 @@ nav {
  }
 
  .right_side button i {
-    font-size: 18px;
+    font-size: 21px;
     color: #7e7e7e;
  }
 
@@ -118,7 +118,7 @@ nav {
     opacity: 0;
     transition: 0.6;
     box-shadow: -2px 2px 81px -27px rgba(0, 0, 0, .3);
-    background: ;
+    background: transparent;
  }
 
  #sub_menu li {
@@ -133,5 +133,94 @@ nav {
 
  #sub_menu li a:hover{
     color: #7AA204;
-    ;
  }
+
+ #shop .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .slide {
+    display:flex
+ }
+
+ .slide_photo img {
+    width: 100%;
+    height: 100%;
+ }
+
+ .slide_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+ }
+ 
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #E1E1E1;
+    margin: 100px 150px;
+}
+.left_welc  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.welcome .left_welc img {
+  padding: 30px;
+}
+
+
+.right_welc .heading3 {
+    color: #7AA204;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: start;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.right_welc .heading2 {
+    font-size: 40px;
+    font-family: Lora, serif !important; 
+    color: #323232 !important;
+    align-items: center;
+    text-align: start;
+    padding-left: 50px;
+}
+
+.right_welc .paragh {
+    align-items: center;
+    padding: 20px 50px 30px 50px;
+}
+
+.right_welc .paragh p {
+    font-size: 14px;
+    text-align: start;
+    line-height: 1.7
+}
+
+.right_welc .sign {
+   padding: 0 50px;
+}
+
+.right_welc p, span {
+    font-size: 14px;
+    text-align: start;
+}
+
+.right_welc span {
+    font-weight: 500;
+    padding-left: 50px;
+}
