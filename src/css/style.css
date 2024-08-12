@@ -4,19 +4,22 @@
 }
 
 nav {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
     margin: 0px 16px;
     line-height: 54px;
+   
 }
+
 
 .nav_row  {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 20px;
+    
 }
 
 .left_side ul {
@@ -105,20 +108,21 @@ nav {
  .home_menu:hover  #sub_menu {
     visibility: visible;
     opacity: 1;
+    background-color: rgba(255, 255, 255, 0.821);
+    transform: translateY(-10px);
  }
 
  #sub_menu {
     position: absolute;
     width: 300px;
-    padding: 20px;
+    padding: 15px 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     visibility: hidden;
     opacity: 0;
-    transition: 0.6;
+    transition: all .3s ease 0s;
     box-shadow: -2px 2px 81px -27px rgba(0, 0, 0, .3);
-    background: transparent;
  }
 
  #sub_menu li {
@@ -218,4 +222,118 @@ nav {
 .right_welc span {
     font-weight: 500;
     padding-left: 50px;
+}
+
+
+
+
+.products_img {
+    width: 266px;
+    height: 266px;
+   
+}
+ .heading {
+    font-size: 40px;
+    font-family: Lora, serif !important;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.5px;
+ }
+ .short_line {
+    border-bottom: 1px solid black;
+ }
+
+ .underline {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #222222;
+    font-size: 19px;
+ }
+
+ .details {
+  text-align: center; 
+ }
+ 
+ .money {
+    padding: 10px;
+ }
+
+ .money .onsale {
+    color: #79a206;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 5px;
+ }
+
+ .money .price {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #666666;
+    
+ }
+
+.details {
+    padding: 20px;
+}
+
+ .details label {
+    font-size: 14px;
+    color: #323232;
+ }
+
+
+ .cards {
+    display: inline-block;
+    margin-left: 26px; 
+    margin-top: 40px;
+    
+ }
+
+ .card {
+    display: inline-block;
+    padding: 0 4px;
+ }
+
+ .review {
+    display: inline;
+ }
+
+ .header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: Lora, serif !important; 
+ }
+
+ .header h2 {
+    padding-top: 50px;
+ }
+
+.comment {
+    display: inline;
+    text-align: center;
+}
+
+.comment p {
+    font-size: 17px;
+    font-style: italic;
+    text-align: center;
+    line-height: 30px;
+    padding: 20px;
+}
+
+#nirob {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+}
+
+.brands img {
+    align-items: center;
+    padding: 20px;
 }
