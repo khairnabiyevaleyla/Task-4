@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    background-color: #ffff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0px 16px;
+    line-height: 54px;
+}
+
+.nav_row  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.left_side ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.left_side ul li {
+    padding: 4px 0;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.left_side ul li a {
+    text-decoration: none;
+}
+
+.left_side ul li:hover {
+    color: #7AA204;
+}
+
+.left_side ul li i {
+    color: black;
+    padding: 4px 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.left_side ul li i:hover {
+    color: #7AA204;  
+}
+
+/* .left_side ul li img {
+    width: 150px;
+    height: 30px;
+    padding-left: 14px;
+}
+ */
+
+ .logo img {
+    width: 150px;
+    height: 30px;
+    margin-left: 14px;  
+    margin-right: 80px;
+ }
+
+ .right_side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+ }
+
+ .right_side input, button {
+    border: none;
+    outline: none;
+ }
+
+ .right_side input  {
+    padding: 0 38px 0 0;
+    font-size: 13px;
+ }
+
+ .right_side button {
+    cursor: pointer;
+ }
+
+ .right_side button i {
+    font-size: 18px;
+    color: #7e7e7e;
+ }
+
+ .right_side button i:hover {
+    color: #7AA204;
+ }
+
+ .home_menu {
+    position: relative;
+    
+ }
+
+ .home_menu:hover  #sub_menu {
+    visibility: visible;
+    opacity: 1;
+ }
+
+ #sub_menu {
+    position: absolute;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.6;
+    box-shadow: -2px 2px 81px -27px rgba(0, 0, 0, .3);
+    background: ;
+ }
+
+ #sub_menu li {
+    text-transform:capitalize;
+    color: #5F5B5A;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 22px;
+    font-size: 15px;
+    color: #7e7e7e;
+ }
+
+ #sub_menu li a:hover{
+    color: #7AA204;
+    ;
+ }
