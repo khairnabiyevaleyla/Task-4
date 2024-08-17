@@ -518,3 +518,9 @@ color: #7AA204;
    text-align: start;
 }
 
+@media (max-width: 799px) {
+   
+   .welcome .left_welc img {
+      padding-right: 50px !important;
+  }
+}
